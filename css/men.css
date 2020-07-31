@@ -1,0 +1,54 @@
+/*
+Title: "Style by JM | Made in Spain" 
+Virsion:1.0.0
+Authour: Jon-Michael "JM" Narvaez
+*/
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+margin: 0;
+padding-left: 18% !important;
+padding-right: 18% !important;
+padding-top: 50px !important;
+padding-bottom: 50px !important;
+background-color: #ededed;
+
+    
+}
+a,
+li{
+    text-decoration: none !important;
+    font-size: xx-small !important;
+    list-style: none;
+    display: inline-block
+}
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    color: #c60000;
+  }
+
+.container{
+      display: block;
+      place-items: center;
+      flex-direction: column;
+      position: absolute;
+      height: 100vh;
+      }
+
+.box{
+    width: 175px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border-style: dashed; */
+    background-color: transparent;
+    justify-items: auto;
+    margin: .30rem;
+}

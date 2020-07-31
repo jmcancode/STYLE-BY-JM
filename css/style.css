@@ -1,0 +1,100 @@
+/*
+Title: "Style by JM | Made in Spain" 
+Virsion:1.0.0
+Authour: Jon-Michael "JM" Narvaez
+*/
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+margin: 0;
+padding-left: 18% !important;
+padding-right: 18% !important;
+padding-top: 50px !important;
+padding-bottom: 50px !important;
+background-color: #ededed;
+
+    
+}
+a,
+li{
+    text-decoration: none !important;
+    font-size: xx-small !important;
+    list-style: none;
+    display: inline-block
+}
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    color: #c60000;
+  }
+
+.container{
+      display: flex;
+      place-items: center;
+      flex-direction: column;
+      position: absolute;
+      height: 100vh;
+      }
+
+.box{
+    width: 175px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border-style: dashed; */
+    background-color: transparent;
+    justify-items: auto;
+    margin: .30rem;
+}
+
+.main-feature{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+    
+}
+
+.wmn-feature{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+} 
+.men-feature{
+    /* background-image: url(/assets/_.jpeg);   */
+    background-color: #c60000;
+}
+.comfort-feature{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+}
+.trg-feature{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+}
+.essentials-feaure{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+}
+.access-feature{
+    /* background-image: url(/assets/_.jpeg); */
+    background-color: #c60000;
+}
+.fl-rt{
+    justify-content: flex-end;
+}
+
+  h3{
+      color: #c60000;
+  }
+.row {
+    overflow: hidden;
+}
+
+.btn:hover{
+    border-color: transparent;
+}
+
